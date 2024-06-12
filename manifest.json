@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "SoWeSkip",
+    "description": "Une extention Chrome pour signer sur SWS sans le code",
+    "version": "1.0",
+    "icons": {
+        "128": "images/favicon.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "http://app.sowesign.com/*",
+                "https://app.sowesign.com/*"
+            ]
+        }
+    ]
+}
