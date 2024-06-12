@@ -1,16 +1,34 @@
-Read me
+# SoWeSkip Installation and Usage Guide
 
-download zip
-unzip 
-Find you student id on sws:
-log into sws
-Insepct element then go to network: reload, a request is made like 1111?include=id,firstName,lastName,reference,email,requiredSignature
-the number like 1111 is your id 
-Now you have your student id, open file of your extension SoWeSkip-maste/scripts/content.js
-Open this file and replace your student id 
-Save the file
-go to your google chrome extensions, click load unpacked extension
-Select the unzip folder to load it 
+## Installation Steps
 
-Now when you are on sws you can clic on "sign" button and select an image to sign
-Congratulation you're present  !
+1. **Download the ZIP file**:
+   - Download the ZIP file of the extension.
+
+2. **Unzip the file**:
+   - Unzip the downloaded file.
+
+3. **Find your student ID on SWS**:
+   - Log into SWS.
+   - Inspect the element, then go to the `Network` tab.
+   - Reload the page, a request similar to `1111?include=id,firstName,lastName,reference,email,requiredSignature` will be made.
+   - The number like `1111` is your student ID.
+
+4. **Edit the extension file**:
+   - Open the file `SoWeSkip-master/scripts/content.js` from the unzipped folder.
+   - Replace the student ID in the file with your own student ID.
+   - Save the file.
+
+5. **Load the extension in Google Chrome**:
+   - Go to your Google Chrome extensions.
+   - Click on `Load unpacked extension`.
+   - Select the unzipped folder to load the extension.
+
+## Using the Extension
+
+- When you are on SWS, you can click on the "sign" button and select an image to sign.
+- Congratulations, you're present!
+
+---
+
+Feel free to ask if you have any questions or need further assistance.
